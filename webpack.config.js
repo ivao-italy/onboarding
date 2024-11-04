@@ -9,7 +9,7 @@ module.exports = {
   entry: './src/js/index.js',  // Your main JavaScript entry file
   output: {
     path: path.resolve(__dirname, 'assets'),
-    filename: 'bundle.js',
+    filename: 'js/bundle.js',
   },
   module: {
     rules: [
@@ -32,7 +32,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'styles.css',  // Output CSS file name
+      filename: 'css/styles.css',  // Output CSS file name
     }),
     new CopyPlugin({
       patterns: [
