@@ -1,0 +1,12 @@
+{
+    "triggerTaskOnSave.selectedTask": "npm: build",
+    "triggerTaskOnSave.showStatusBarToggle": true,
+    "triggerTaskOnSave.delay": 500,
+    "triggerTaskOnSave.restart": true,
+    "triggerTaskOnSave.showNotifications": true,
+    "triggerTaskOnSave.tasks": {
+        "npm: build": [
+            "*", // <-- Glob pattern to specify which files should trigger the task
+          ],
+    }
+}
