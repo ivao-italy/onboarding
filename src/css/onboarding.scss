@@ -95,10 +95,10 @@ color:red;
     background-color: transparent;
 
     .card-body {
-        background-color: rgba(255, 255, 255, 0.6) !important;
+        background-color: rgba(255, 255, 255, 0.7) !important;
         border: 5px solid rgba(255, 255, 255, 0);
         border-radius: var(--bs-card-border-radius);
-        backdrop-filter: blur(2px) brightness(150%);
+        backdrop-filter: blur(2px) brightness(170%);
         transition: 350ms all ease-in-out;
     }
     a.card-body:hover {
